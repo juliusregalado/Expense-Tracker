@@ -3,7 +3,7 @@
 ## App Description
 Expense Tracker is a simple application where you can manage your own expenses, with this app you will be able to create, store, edit and delete your expenses. You will also get useful information about the latest tips and trends about financial management.
 ## Wireframes
-![imagename](./Wireframe.png)
+![imagename](./public/Wireframe.png)
 ## Phases of Completion
 1. Backend
 	- configurations and routes
