@@ -24,6 +24,7 @@ Expense Tracker is a simple application where you can manage your own expenses, 
 	- AJAX
 	- React
   - Redux
+  - D3
 	- Bootstrap
 	- HTML
 	- CSS
@@ -38,5 +39,5 @@ Expense Tracker is a simple application where you can manage your own expenses, 
 	- https://www.w3shools.com/
 	- https://www.stackoverflow.com/
 	- https://www.developer.mozilla.com/
-## Links for finished project
+## Links to finished project
   TO BE UPDATED
