@@ -15,6 +15,7 @@ class ExpenseTracker extends Component {
           title={title}
           subtitle={subtitle}
         />
+        <a href="https://expense-report-react.herokuapp.com">Got to deployed app</a>
       </div>
     )
   }

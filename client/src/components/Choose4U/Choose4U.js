@@ -65,8 +65,8 @@ class Choose4U extends Component {
     console.log('componentWillUnmount');
   }
   render() {
-    const subtitle = 'Confused?! Let the computer decide for you';
-    const title = 'Choose4U';
+    const subtitle = 'Click to got to deployed app';
+    const title = 'Chefs Diary';
     return (
       <div>
         <button onClick={this.props.activateLeft}>Back</button>
@@ -74,22 +74,7 @@ class Choose4U extends Component {
           title={title}
           subtitle={subtitle}
         />
-        <Action
-          hasOptions={this.state.options.length > 0}
-          handlePick={this.handlePick}
-        />
-        <Options
-          options={this.state.options}
-          handleDeleteOptions={this.handleDeleteOptions}
-          handleDeleteOption={this.handleDeleteOption}
-        />
-        <AddOption
-          handleAddOption={this.handleAddOption}
-        />
-        <OptionModal
-          selectedOption={this.state.selectedOption}
-          handleClearSelectedOption={this.handleClearSelectedOption}
-        />
+        <a href="https://chefsdiary.herokuapp.com">Got to deployed app</a>
       </div>
     );
   }
